@@ -14,7 +14,7 @@ import random
 def demo_string():
     stra = " \n\txys \t\n"
     strb = "lalala"
-    strc = "hi arashi"
+    strc = "say arashi"
     print(1, stra)
     print(2, strb.strip())
     print(3, stra.strip()+strb.strip())
