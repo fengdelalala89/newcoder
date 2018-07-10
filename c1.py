@@ -9,6 +9,7 @@ soup = BeautifulSoup(content,'html.parser')
 for div in soup.find_all('div',{'class':'content'}):
     print(div.text.strip())
 """
+import random
 
 def demo_string():
     stra = " \n\txys \t\n"
@@ -71,6 +72,9 @@ def demo_set():
     seta.add('x')
     print(4,seta)
 
+def demo_random():
+    print(1,random.random())
+
 if __name__ == '__main__':
     print("Hello World！")
     demo_string()
@@ -80,3 +84,4 @@ if __name__ == '__main__':
     demo_list()
     demo_dict()
     demo_set()
+    demo_random()
