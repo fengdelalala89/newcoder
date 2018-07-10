@@ -74,6 +74,7 @@ def demo_set():
 
 def demo_random():
     print(1,random.random())
+    print(2,random.randint(0,100))
 
 if __name__ == '__main__':
     print("Hello World！")
