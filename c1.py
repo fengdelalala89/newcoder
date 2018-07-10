@@ -73,8 +73,15 @@ def demo_set():
     print(4,seta)
 
 def demo_random():
+    random.seed(666)
     print(1,random.random())
     print(2,random.randint(0,100))
+    print(3, random.choice(range(0, 100,10)))
+    print(4, random.sample(range(0,100),4))
+    a = [1,2,3,4,5]
+    random.shuffle(a)
+    print(5,a)
+
 
 if __name__ == '__main__':
     print("Hello World！")
